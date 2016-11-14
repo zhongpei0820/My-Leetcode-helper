@@ -28,6 +28,7 @@ queryUsername("user")
         let child_process = spawn('./node_modules/.bin/casperjs',['./crawler/crawl-problem.js',res.link,lang,userinfo.username,userinfo.password]);
         let content = '';
         let path = userinfo.github + "/" + formater.getPath(lang,problem);
+        let filetype = formater.getFileType(lang);
         child_process.stdout.on('data',(chunk) => {
             content += chunk.toString();
         });
@@ -42,7 +43,7 @@ queryUsername("user")
             });
             title = formater.formatTitle(title);
             description = formater.formatDescription(lang,description);
-            fs.writeFile(path+title+"."+lang,description + '\n' + my_code,err => {
+            fs.writeFile(path+title+"."+filetype,description + '\n' + my_code,err => {
                 if(err) throw err;
                 console.log('saved!');
             });

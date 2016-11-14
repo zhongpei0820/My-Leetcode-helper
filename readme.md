@@ -19,6 +19,8 @@ Mongodb are used to store the account information and problem information.
 
 Of course one can simply stores those information in a local json file.
 
+Currently only support JAVA and Python code. Because I only use these two languages to do LeetCode :)
+
 
 
 ### Future improvment
