@@ -1,0 +1,22 @@
+{
+  "name": "leetcode-crawler",
+  "version": "0.0.1",
+  "description": "A leetcode plug-in",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "leetcode",
+    "crawler",
+    "plugin"
+  ],
+  "author": "zhongpei",
+  "license": "ISC",
+  "dependencies": {
+    "casperjs": "^1.1.3",
+    "cheerio": "^0.22.0",
+    "mongodb": "^2.2.11",
+    "prompt": "^1.0.0"
+  }
+}
