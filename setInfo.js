@@ -20,8 +20,9 @@ prompt.get([{
   required : true
 }], function (err, result) {
   console.log('Setting username and password');
-  insertLeetCodeAccount("user",{"username" : result.username,
-                                "password" : result.password,
-                                 "github" : result.github}
-                                 );
+  insertLeetCodeAccount("user",{
+    "username" : result.username,
+    "password" : result.password,
+    "github" : result.github
+  });
 });
