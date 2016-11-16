@@ -1,4 +1,11 @@
 #!/usr/bin/env node
+
+/***
+*      Setup your leetcode account ang github local repo directory.    
+*      And insert those imformation into the database.
+***/
+
+
 'use strict';
 let prompt = require('prompt');
 let insertLeetCodeAccount = require('./lib/db.js').insertLeetCodeAccount;
