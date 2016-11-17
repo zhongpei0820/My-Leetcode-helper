@@ -46,21 +46,20 @@ A small nodejs script that helps me crwaling problem descriptions and my solutio
 
    **Solution**: Instead of crawling one problem each time, I can use a logger to log the problems I just finished, so I can crawl them all at one time.
 
-   #### Ohter:####
+#### Ohter:
 
-   Callback Hell:
+Callback Hell:
 
-   **Solution**:
+**Solution**:
 
-   ```javascript
+```javascript
     Func1(args, (args) => {
       Func2(args)
    })
     Func2(args,(args) => {
       Func3(args)
     })
-
-   ```
+```
 
  
 
