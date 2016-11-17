@@ -12,7 +12,7 @@ A small nodejs script that helps me crwaling problem descriptions and my solutio
 4. getProblems : get the problem descriptions and my solutions from Leetcode and save them to the local repo path.
 5. github.sh : a shell script to add, commit and push the new added file to my github.
 
-![Image of Yaktocat](project_module_diagram/diagram.png)
+![Diagram of Module](project_module_diagram/diagram.png)
 
 ### Node Modules used in this project 
 
