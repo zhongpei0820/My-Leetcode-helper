@@ -7,7 +7,6 @@
 
 'use strict';
 const
-    cherrio = require('cheerio'),
     request = require('request'),
     insertProblems = require('./lib/db.js').insertProblems;
 
