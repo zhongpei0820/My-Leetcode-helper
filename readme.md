@@ -26,11 +26,11 @@ A small nodejs script that helps me crwaling problem descriptions and my solutio
 
 ### Future improvment
 
-- [  ] Directly commit the file to Github using Github API instead of saving it to local repo and commit to by shell commands.
-- [  ] Save the information in a local json file instead of using a db.
+- [ ] Directly commit the file to Github using Github API instead of saving it to local repo and commit to by shell commands.
+- [ ] Save the information in a local json file instead of using a db.
 - [x] Send Http request to crawl problems from Leetcode.
-- [  ] Send Http request to login and crawl code from Leetcode instead of using CasperJS.
-- [  ] Wrtie a front-end of this application, make it a web application using AngularJS as frontend and ExpressJS as backend.
+- [ ] Send Http request to login and crawl code from Leetcode instead of using CasperJS.
+- [ ] Wrtie a front-end of this application, make it a web application using AngularJS as frontend and ExpressJS as backend.
 
 ### Problems Encountered
 
@@ -54,16 +54,13 @@ A small nodejs script that helps me crwaling problem descriptions and my solutio
 
    ```javascript
     Func1(args, (args) => {
-   	Func2(args)
+      Func2(args)
    })
     Func2(args,(args) => {
-      	Func3(args)
+      Func3(args)
     })
 
    ```
 
-   ​
-
-   ​
-
+ 
 
